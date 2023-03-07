@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button>click me</button>
+        <br>
+        click me <span id ='count'>0</span>
+        <script>
+            var $button = document.querySelector('button');
+            var $span = document.querySelector('span');
+
+            function increment(){
+                $span.innerHTML++;
+           
+            }
+            $button.addEventListener('click', increment);
+        </script>
+    </body>
+</html>
